@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    display: flex;
+    background-color: rgb(101, 24, 224);
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.box{
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50%;
+
+}
+.box1{
+    background-color: #ff0000;
+
+}
+.box2{
+    background-color: rgb(64, 255, 47);
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: aquamarine;
+}
