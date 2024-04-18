@@ -5,10 +5,9 @@
 }
 
 a{
-
-
-
+    text-decoration: none;
 }
+
 #cabecalho{
     background-color: #121010;
     color: #fff;
@@ -18,17 +17,29 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    width: 100%;
 }
 
 #cabecalho nav ul{
     list-style: none;
     display: flex;
+    min-width: 100%;
+    gap:20px;
+    flex-wrap: wrap;
 }
 
-.link{
-    
+.link a{
+    display: block;
+    color: #fff;
+    background-color: #312f2f;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color .4s ease-in-out;
+   
+    &:hover{
+        background-color: #514e4e;
 
-
+    }
 }
 
 /*.container{
