@@ -3,7 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+a{
+    text-decoration: none;
+}
+#cabecalho{
+    background-color: rgb(77, 69, 61);
+    color: white;
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+#cabecalho nav ul{
+    list-style: none;
+    display: flex;
+    min-width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.link{
+    display: block;
+    color: white;
+    background-color: rgb(103, 187, 183);
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color .4s ease;
+
+    &:hover{
+        background-color: rgb(31, 141, 231);
+    }
+}
+/* .container{
     display: flex;
     background-color: rgb(101, 24, 224);
     height: 100px;
@@ -31,4 +64,4 @@
 }
 .box4{
     background-color: aquamarine;
-}
+} */
