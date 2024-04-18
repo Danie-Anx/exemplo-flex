@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a15cc9;
+    height: 100px;
+    width: 100%;
+}
+
+.box{
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.box1{
+    background-color: #ff0000;
+}
+
+.box2{
+    background-color: #008000;
+}
+
+.box3{
+        background-color: #0000ff;
+}
+
+.box4{
+    background-color: brown;
+}
